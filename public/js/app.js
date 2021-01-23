@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageTwo.textContent = '';
             } else {
                 messageOne.textContent = 'Location: ' + data.location;
-                messageTwo.textContent = 'Forecast: Temperature: ' + data.forecast.temperature + ', Feelslike: ' + data.forecast.feelslike;
+                messageTwo.textContent = 'Forecast: Temperature: ' + data.forecast.temperature + ', Feelslike: ' + data.forecast.feelslike + ', Humidity: ' + data.forecast.humidity + '%';
             }
         });
     });
